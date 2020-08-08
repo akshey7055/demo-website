@@ -117,6 +117,11 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     text-align: center!important;
     /* width: 50%; */
 }
+@media and screen(max-width){
+.search-bar{
+	width: 30%;
+}
+}
 
 .front-title {
     font-size: 2.5rem;
