@@ -105,7 +105,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     margin-top: 2%;
 }
 .search-input{
-  width: 500px;
+  width: 40%;
   height: 50px;
   border-radius: 15%;
 }
@@ -116,11 +116,6 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     /* display: block; */
     text-align: center!important;
     /* width: 50%; */
-}
-@media and screen(max-width){
-.search-bar{
-	width: 30%;
-}
 }
 
 .front-title {
