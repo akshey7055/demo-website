@@ -239,6 +239,10 @@ li {
     padding-top: 7%;
     margin-bottom: 10%;
 }
+.mobile-img{
+    transform: rotate(-15deg);
+    /* padding-right: 10%; */
+}
 /* /././ Download app section */
 
 /* Testimonials Section */
