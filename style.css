@@ -253,10 +253,16 @@ li {
     padding-top: 7%;
     margin-bottom: 10%;
 }
-/* .mobile-img{ */
-    /* transform: rotate(-15deg); */
-    /* padding-right: 10%; */
-/* } */
+@media screen and(max-width: 600px){
+    .mobile-img{
+        transform: rotate(-20deg);
+        padding-right: 10%;
+    }
+}
+/* .mobile-img{
+    transform: rotate(-15deg);
+    padding-right: 10%;
+} */
 /* /././ Download app section */
 
 /* Testimonials Section */
@@ -271,9 +277,10 @@ li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
+    cursor: pointer;
 }
-.carousel-indicators li .active {
-    background-color: rebeccapurple;
+.carousel-indicators .active {
+    background-color: palevioletred;
     width: 10px;
     height: 10px;
     border-radius: 100%;
@@ -337,10 +344,31 @@ li {
     margin-top: 0;
     cursor: pointer;
 }
+.sub-scribe-h3tag{
+    color: white;
+    text-align: left;
+}
+@media screen and (max-width: 600px){
+    .sub-scribe-h3tag{
+        text-align: center;
+    }   
+}
 .form-control{
     width: 80%;
-    height: 20%;
+    height: 30%;
+    text-align: center;
 }
+@media screen and (max-width: 600px){
+    .form-control{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px){
+    .form-group{
+        margin-left: 15%;
+    }
+}
+
 .submit{
     background-color: thistle;
     cursor: pointer;
@@ -363,33 +391,37 @@ li {
 }
 .email{
     color:white;
-    padding-right: 20%;
+    /* padding-right: 10%; */
     font-size: 1.5rem;
+    text-align: center;
 }
 .download-app-class-links{
-    text-align: right;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .download-app-class-links{
+        text-align: center;
+    }
 }
 /* Social media css */
-.social-media{
+/* .social-media{
     background-color: gold;
-}
+} */
 
 /* Social Media */
 .footer-icons{
-    width: 15%;
-    height: 30%;
-    background-color: steelblue;
-    float: left;
-    border-radius: 10%;
-    margin-left: 3%;
-    margin-right: 5%;
-    padding-left: 3%;
+    display: inline;
+    margin: 0 5% 0 5%;
+    cursor: pointer;
+    /* background-color: steelblue; */
+    /* float: left;
+    border-radius: 10%; */
 }
 
-.all-icons{
-    margin-left: 40%;
-    margin-right: 10%;
-}
+/* .all-icons{ */
+    /* margin-left: 50%; */
+    /* margin-right: 15%; */
+/* } */
 .lastlogos
 {
     background-color: tomato;
@@ -477,12 +509,13 @@ li {
     padding: 5% 15%;
     margin-top: 0;
 }
-@media (max-width: 960px) and (min-width: 501px) {
-    .colume1 li { width: 100%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+
+@media screen and (max-width: 600px) {
+    .second-tab{
+        display: none;
+    }
 }
-@media (max-width: 500px) {
-    .colume1 li { width: 50%; } /* On small screens, show one logo per row */
-}
+
 [data-tab-content] {
     display: none;
 }
@@ -495,6 +528,8 @@ li {
 }
 .li-border{
     list-style: none;
+    border-bottom: 1px dashed olive;
+    border-top: 1px dashed olive;
 }
 .eng-fields{
     columns: 2;
