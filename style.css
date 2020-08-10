@@ -314,10 +314,24 @@ li {
     font-size: 1.3rem;
     margin-bottom: 30%;
 }
+@media screen and (max-width: 600px) {
+    .footer-title{
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-bottom: 1%;
+    }
+}
 .all-footer-details{
     font-weight: 50;
     cursor: pointer;
     margin-top: 15%;
+}
+@media screen and (max-width: 600px) {
+    .all-footer-details{
+        font-weight: 500;
+        margin-bottom: 1%;
+        margin-top: 3%;
+    }
 }
 .last{
     margin-top: 0;
