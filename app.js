@@ -7,6 +7,10 @@ tabs.forEach(tab => {
         tabsContents.forEach(tabsContent => {
             tabsContent.classList.remove("active");
         });
+        tabs.forEach(function(tab) {
+            tab.classList.remove("active");
+        });
+        tab.classList.add("active");
         target.classList.add("active");
     });
 });
